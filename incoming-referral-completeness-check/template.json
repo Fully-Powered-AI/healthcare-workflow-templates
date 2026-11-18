@@ -23,7 +23,7 @@
     "pilot-acceptance-test-preparation"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -39,7 +39,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own published map of healthcare work: its example of finding what is missing from an incoming referral, with the reader, the trigger, the inputs, the output and the split between the coordinator, who confirms readiness, and the clinician, who sets urgency and clinical requirements."
+      "title": "FullyPowered AI's own published map of healthcare work: its example of finding what is missing from an incoming referral, with the reader, the trigger, the inputs, the output and the split between the coordinator, who confirms readiness, and the clinician, who sets urgency and clinical requirements."
     }
   ]
 }

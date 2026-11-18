@@ -51,11 +51,11 @@ Use it only in an AI product your office has approved for patient-related record
 
 ## What has been checked
 
-Fully Powered AI wrote this workflow template, drawing on a published dental laboratory coordination method by CaseMark under the Apache-2.0 licence and keeping only its case-tracking and lab-record ideas. It was editorially reviewed on 10 November 2026. The tracker shown in the example was worked through by hand from the template's rules. The template, with the small edits made on review, was then tried on its invented example in Claude on 10 November 2026, and the record is published with it: every case, date and count agreed with the example's tracker, and four lines differed in wording. That run did not reach the lines for a case not yet overdue whose seating has already passed, or for an overdue case with too few days left before the seating, and the stop and decline paths were not exercised. It has not been tested in a dental office, and no dental professional has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template, drawing on a published dental laboratory coordination method by CaseMark under the Apache-2.0 licence and keeping only its case-tracking and lab-record ideas. It was editorially reviewed on 10 November 2026. The tracker shown in the example was worked through by hand from the template's rules. The template, with the small edits made on review, was then tried on its invented example in Claude on 10 November 2026, and the record is published with it: every case, date and count agreed with the example's tracker, and four lines differed in wording. That run did not reach the lines for a case not yet overdue whose seating has already passed, or for an overdue case with too few days left before the seating, and the stop and decline paths were not exercised. It has not been tested in a dental office, and no dental professional has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your office means running it on a few weeks your coordinator already knows, with cases written in advance: a case overdue with the seating two days away, a case due back on the seating day, a remake with no reason recorded, a case received before the quarter began. The coordinator checks every date against the case list before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/) prepares the formal note to a lab when its record calls for one.
 
-- Written by Fully Powered AI.
+- Written by FullyPowered AI.
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
@@ -86,4 +86,4 @@ Testing in your office means running it on a few weeks your coordinator already 
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).

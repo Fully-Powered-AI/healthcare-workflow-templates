@@ -51,11 +51,11 @@ Use it only in an AI product your practice has approved for this information, an
 
 ## What has been checked
 
-Fully Powered AI wrote this workflow template from its own published map of healthcare work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, with the edits made after the first run and review, and the template was run again on the example after the last of them. It has not been tested in a medical practice, and no practice administrator has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template from its own published map of healthcare work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, with the edits made after the first run and review, and the template was run again on the example after the last of them. It has not been tested in a medical practice, and no practice administrator has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on past referrals your coordinator already knows, with cases written in advance: an unsigned order, a visit note past your limit, a document belonging to another patient, a referral to a service you do not offer, a phone call about the patient's health. The coordinator opens every document and checks every line before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
 
-- Written by Fully Powered AI.
+- Written by FullyPowered AI.
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
@@ -86,4 +86,4 @@ Testing in your practice means running it on past referrals your coordinator alr
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).

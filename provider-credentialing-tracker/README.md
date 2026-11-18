@@ -51,11 +51,11 @@ Use it only in an AI product your practice has approved for staff records.
 
 ## What has been checked
 
-Fully Powered AI wrote this workflow template, drawing on a published hospital credentialing method by CaseMark under the Apache-2.0 licence and scaling it down to a medical practice. It was editorially reviewed on 10 November 2026. The tracker shown in the example was worked through by hand from the template's rules. The template was then tried once on its invented example in Claude on 10 November 2026, and the record is published with it: the output agreed with the example on every standing, date and count, the model brought its wording into line with the example's before the record was saved, and the stop and decline paths were not exercised. Small edits made afterward, listed in the record, have not been run again. It has not been tested in a medical practice, and no credentialing professional has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template, drawing on a published hospital credentialing method by CaseMark under the Apache-2.0 licence and scaling it down to a medical practice. It was editorially reviewed on 10 November 2026. The tracker shown in the example was worked through by hand from the template's rules. The template was then tried once on its invented example in Claude on 10 November 2026, and the record is published with it: the output agreed with the example on every standing, date and count, the model brought its wording into line with the example's before the record was saved, and the stop and decline paths were not exercised. Small edits made afterward, listed in the record, have not been run again. It has not been tested in a medical practice, and no credentialing professional has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on a month your coordinator already knows, with cases written in advance: an item that lapsed last week, a renewal applied for after the deadline passed, a required item with no row, a joining clinician with an application still open. The coordinator checks every date against the spreadsheet before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/) is the companion routine for the referral desk.
 
-- Written by Fully Powered AI.
+- Written by FullyPowered AI.
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
@@ -86,4 +86,4 @@ Testing in your practice means running it on a month your coordinator already kn
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).

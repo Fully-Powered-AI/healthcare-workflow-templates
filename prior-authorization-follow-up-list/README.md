@@ -50,11 +50,11 @@ Use it only in an AI product your practice has approved for this information, an
 
 ## What has been checked
 
-Fully Powered AI wrote this workflow template from its own worked illustration, built for an invented practice. It was editorially reviewed on 9 November 2026. It was run on its invented example in Claude on 9 November 2026, and the record is published with it: two earlier runs that day led to changes, and the recorded run is the last. A run on an invented example is not a test. It has not been tested in a medical practice, and no practice owner has reviewed its rules. Our earlier build of this workflow template was scored only against an answer key written by the same build, which shows the build agreed with itself; we do not count that as a test. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template from its own worked illustration, built for an invented practice. It was editorially reviewed on 9 November 2026. It was run on its invented example in Claude on 9 November 2026, and the record is published with it: two earlier runs that day led to changes, and the recorded run is the last. A run on an invented example is not a test. It has not been tested in a medical practice, and no practice owner has reviewed its rules. Our earlier build of this workflow template was scored only against an answer key written by the same build, which shows the build agreed with itself; we do not count that as a test. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on past weeks your coordinator already knows, with cases written in advance: a request with no submission date, a payer with no turnaround on file, a booked procedure that is still pending, a request missing from the list. The coordinator checks every date and every row against the spreadsheet before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/) is how the coordinator’s unwritten rules get written down first.
 
-- Written by Fully Powered AI.
+- Written by FullyPowered AI.
 - Sources and rights reviewed.
 - Editorially reviewed on 9 November 2026.
 - Package format checked by script on every release.
@@ -84,4 +84,4 @@ Testing in your practice means running it on past weeks your coordinator already
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).

@@ -22,7 +22,7 @@
     "prior-authorization-follow-up-list"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -38,7 +38,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own design: the limit to medical-surgical and office supplies with everything else listed as out of scope; room-by-room work from stock-count, usage and item-list exports with set column headers that stop on a mismatch; daily use counted per open day; a par covering the days between orders, the supplier's delivery time and a buffer; the lot-by-lot, whole-unit count of how much of each lot will be used before its expiry date; a draft order net of open orders, rounded to supplier packs, with an approval line; and surplus in other rooms shown but never subtracted."
+      "title": "FullyPowered AI's own design: the limit to medical-surgical and office supplies with everything else listed as out of scope; room-by-room work from stock-count, usage and item-list exports with set column headers that stop on a mismatch; daily use counted per open day; a par covering the days between orders, the supplier's delivery time and a buffer; the lot-by-lot, whole-unit count of how much of each lot will be used before its expiry date; a draft order net of open orders, rounded to supplier packs, with an approval line; and surplus in other rooms shown but never subtracted."
     },
     {
       "kind": "third-party",

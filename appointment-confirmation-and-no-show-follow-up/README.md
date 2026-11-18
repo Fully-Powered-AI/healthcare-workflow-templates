@@ -54,11 +54,11 @@ Use it only in an AI product your practice has approved for this information. Fo
 
 ## What has been checked
 
-Fully Powered AI wrote this workflow template in its own words, drawing on two published MIT-licensed methods credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. That run covered an ordinary day, with a voicemail, a request to move, a health question and a no-show already rebooked; it did not reach a column heading that does not match, a file carrying contact details, wording that asks why a visit was missed, or a request to send the messages. It has not been tested in a practice, and no practice manager has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words, drawing on two published MIT-licensed methods credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. That run covered an ordinary day, with a voicemail, a request to move, a health question and a no-show already rebooked; it did not reach a column heading that does not match, a file carrying contact details, wording that asks why a visit was missed, or a request to send the messages. It has not been tested in a practice, and no practice manager has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on a past week your desk already knows, with cases written in advance: a voicemail, a patient who asks to move with a preferred day, a reply that mentions a health question, a no-show who is already rebooked, two people waiting for the same provider. The coordinator checks every filled script and every slot against the diary before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
 
-- Written by Fully Powered AI.
+- Written by FullyPowered AI.
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
@@ -89,4 +89,4 @@ Testing in your practice means running it on a past week your desk already knows
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
