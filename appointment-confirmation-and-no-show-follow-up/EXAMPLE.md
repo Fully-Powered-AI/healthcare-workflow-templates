@@ -1,6 +1,6 @@
-# Appointment confirmation and no-show follow-up: an invented example
+# Appointment confirmation and no-show follow-up: an example
 
-*Illustrative example with invented data.* An invented physiotherapy practice, called Practice A here, on the afternoon of Thursday 19 November 2026, after the morning’s confirmation calls and messages. The practice, its phone number, the people (Tomasz, the front-desk coordinator; Elif, the practice manager; Jun and Priya, the physiotherapists), the patients, the booking numbers and the patient codes are all invented. The inputs come first, in full, then the list.
+*Illustrative example with sample data.* An illustrative physiotherapy practice, called Practice A here, on the afternoon of Thursday 19 November 2026, after the morning’s confirmation calls and messages. The practice, its phone number, the people (Tomasz, the front-desk coordinator; Elif, the practice manager; Jun and Priya, the physiotherapists), the patients, the booking numbers and the patient codes are all illustrative. The inputs come first, in full, then the list.
 
 ## What the coordinator supplied
 

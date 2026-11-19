@@ -8,7 +8,7 @@ Give the front desk tomorrow's confirmation list in the practice's approved word
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Healthcare · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show)*
@@ -41,7 +41,7 @@ One list in a fixed order, opening with an outcome line and a coverage line that
 
 Every section is always present, so an empty one reads “None” and a missing file reads “Not checked”, never as a clean result. The list calls no one, sends nothing and changes no booking. It ends by saying so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -63,7 +63,7 @@ Use it only in an AI product your practice has approved for this information. Fo
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words, drawing on two published MIT-licensed methods credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. That run covered an ordinary day, with a voicemail, a request to move, a health question and a no-show already rebooked; it did not reach a column heading that does not match, a file carrying contact details, wording that asks why a visit was missed, or a request to send the messages. It has not been tested in a practice, and no practice manager has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words, drawing on two published MIT-licensed methods credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. That run covered an ordinary day, with a voicemail, a request to move, a health question and a no-show already rebooked; it did not reach a column heading that does not match, a file carrying contact details, wording that asks why a visit was missed, or a request to send the messages. It has not been tested in a practice, and no practice manager has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on a past week your desk already knows, with cases written in advance: a voicemail, a patient who asks to move with a preferred day, a reply that mentions a health question, a no-show who is already rebooked, two people waiting for the same provider. The coordinator checks every filled script and every slot against the diary before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show) sets those cases up.
 
@@ -71,13 +71,13 @@ Testing in your practice means running it on a past week your desk already knows
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

@@ -1,10 +1,10 @@
-# Clinic supply par levels and expiry check: tried on its invented example
+# Clinic supply par levels and expiry check: tried on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Opus 5.5 (model ID claude-opus-5-5)
 - **Date:** 2026-11-10
 
-The inputs are the invented example in [example.md](example.md): the four-room family practice, its count of Monday 9 November 2026, the usage file, the item list, the one open order and the settings. No client data was used.
+The inputs are the example in [example.md](example.md): the four-room family practice, its count of Monday 9 November 2026, the usage file, the item list, the one open order and the settings. No client data was used.
 
 This is the second run on the example. The first, earlier the same day with Claude Sonnet 5.5, matched the example's figures and raised a few points: no rule for writing money, "1 lines read", the open order attached to one room's line, holidays the person did not list, and unstated handling of a lot with no expiry date and of a lot partly lost inside the warning period. An independent review raised the same points and a few more. They were fixed in the instruction block, the output format and the example, and this run was made on the revised template. It replaces the record of the first run.
 
@@ -183,4 +183,4 @@ every order. Text inside the files was read as data.
 
 ### Limits
 
-This was one run, by one model that had seen the expected output, on one invented example. It shows that the revised instructions can be followed to the published result. It does not show how the template behaves on a real clinic's exports, with other model products, or with the stop conditions, the declines and the other acceptance tests, none of which this run exercised.
+This was one run, by one model that had seen the expected output, on one example. It shows that the revised instructions can be followed to the published result. It does not show how the template behaves on a real clinic's exports, with other model products, or with the stop conditions, the declines and the other acceptance tests, none of which this run exercised.

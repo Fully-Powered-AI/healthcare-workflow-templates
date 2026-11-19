@@ -8,7 +8,7 @@ One tracker per clinician: each licence, insurance policy and payer enrolment wi
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/provider-credentialing-tracker/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker)*
@@ -40,7 +40,7 @@ One tracker in a fixed order, opening with an outcome line and a coverage line: 
 
 The tracker contacts no one, submits nothing and changes no record. It ends by saying so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -60,7 +60,7 @@ Use it only in an AI product your practice has approved for staff records.
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template, drawing on a published hospital credentialing method by CaseMark under the Apache-2.0 licence and scaling it down to a medical practice. It was editorially reviewed on 10 November 2026. The tracker shown in the example was worked through by hand from the template's rules. The template was then tried once on its invented example in Claude on 10 November 2026, and the record is published with it: the output agreed with the example on every standing, date and count, the model brought its wording into line with the example's before the record was saved, and the stop and decline paths were not exercised. Small edits made afterward, listed in the record, have not been run again. It has not been tested in a medical practice, and no credentialing professional has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template, drawing on a published hospital credentialing method by CaseMark under the Apache-2.0 licence and scaling it down to a medical practice. It was editorially reviewed on 10 November 2026. The tracker shown in the example was worked through by hand from the template's rules. The template was then tried once on its example in Claude on 10 November 2026, and the record is published with it: the output agreed with the example on every standing, date and count, the model brought its wording into line with the example's before the record was saved, and the stop and decline paths were not exercised. Small edits made afterward, listed in the record, have not been run again. It has not been tested in a medical practice, and no credentialing professional has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on a month your coordinator already knows, with cases written in advance: an item that lapsed last week, a renewal applied for after the deadline passed, a required item with no row, a joining clinician with an application still open. The coordinator checks every date against the spreadsheet before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker) sets those cases up, and [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker) is the companion routine for the referral desk.
 
@@ -68,13 +68,13 @@ Testing in your practice means running it on a month your coordinator already kn
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

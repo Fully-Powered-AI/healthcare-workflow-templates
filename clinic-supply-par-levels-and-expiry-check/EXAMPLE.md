@@ -1,6 +1,6 @@
-# Clinic supply par levels and expiry check: an invented example
+# Clinic supply par levels and expiry check: an example
 
-*Illustrative example with invented data.* An invented four-room family practice after its stock count on Monday 9 November 2026. The practice, the people (Teo, the medical assistant who orders supplies; Marisol, the practice manager), Supplier A, Supplier B, the item codes, the lot numbers, the quantities and the prices are all invented. The inputs come first, in full, then the sheet.
+*Illustrative example with sample data.* An illustrative four-room family practice after its stock count on Monday 9 November 2026. The practice, the people (Teo, the medical assistant who orders supplies; Marisol, the practice manager), Supplier A, Supplier B, the item codes, the lot numbers, the quantities and the prices are all illustrative. The inputs come first, in full, then the sheet.
 
 ## What Teo supplied
 

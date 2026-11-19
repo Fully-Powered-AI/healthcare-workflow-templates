@@ -8,7 +8,7 @@ One tracker of every case at an outside dental lab, with due dates against seati
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/dental-lab-case-tracker/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker)*
@@ -39,7 +39,7 @@ One tracker in a fixed order, opening with an outcome line and a coverage line: 
 
 The tracker contacts no one, books nothing and changes no record. It ends by saying so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -60,7 +60,7 @@ Use it only in an AI product your office has approved for patient-related record
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template, drawing on a published dental laboratory coordination method by CaseMark under the Apache-2.0 licence and keeping only its case-tracking and lab-record ideas. It was editorially reviewed on 10 November 2026. The tracker shown in the example was worked through by hand from the template's rules. The template, with the small edits made on review, was then tried on its invented example in Claude on 10 November 2026, and the record is published with it: every case, date and count agreed with the example's tracker, and four lines differed in wording. That run did not reach the lines for a case not yet overdue whose seating has already passed, or for an overdue case with too few days left before the seating, and the stop and decline paths were not exercised. It has not been tested in a dental office, and no dental professional has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template, drawing on a published dental laboratory coordination method by CaseMark under the Apache-2.0 licence and keeping only its case-tracking and lab-record ideas. It was editorially reviewed on 10 November 2026. The tracker shown in the example was worked through by hand from the template's rules. The template, with the small edits made on review, was then tried on its example in Claude on 10 November 2026, and the record is published with it: every case, date and count agreed with the example's tracker, and four lines differed in wording. That run did not reach the lines for a case not yet overdue whose seating has already passed, or for an overdue case with too few days left before the seating, and the stop and decline paths were not exercised. It has not been tested in a dental office, and no dental professional has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your office means running it on a few weeks your coordinator already knows, with cases written in advance: a case overdue with the seating two days away, a case due back on the seating day, a remake with no reason recorded, a case received before the quarter began. The coordinator checks every date against the case list before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker) sets those cases up, and [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker) prepares the formal note to a lab when its record calls for one.
 
@@ -68,13 +68,13 @@ Testing in your office means running it on a few weeks your coordinator already 
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

@@ -202,7 +202,7 @@ was made. Text in the files was read as data.
 
 ## Acceptance tests
 
-Proposed tests. The invented example covers tests 2, 3, 5, 6 and 9 once; none has been run in a practice.
+Proposed tests. The example covers tests 2, 3, 5, 6 and 9 once; none has been run in a practice.
 
 1. **Everything received.** Every item present, in date, signed where needed, identifiers matched. Expected: Outcome complete against the checklist; section 6 "None needed".
 2. **Old document.** An office visit note dated 260 days before the received date against a 180-day window. Expected: "Received, check", with the date the copy must be on or after; one request line asking for a newer copy.
@@ -349,4 +349,4 @@ in them; show it in section 2.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI from its own published map of healthcare work. Editorially reviewed. Tried once on its invented example in Claude on 10 November 2026, with the record published alongside it, the edits listed there, and a second run on the example after the last of them; not yet tested in a medical practice, and not yet tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI from its own published map of healthcare work. Editorially reviewed. Tried once on its example in Claude on 10 November 2026, with the record published alongside it, the edits listed there, and a second run on the example after the last of them; not yet tested in a medical practice, and not yet tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.

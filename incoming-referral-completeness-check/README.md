@@ -8,7 +8,7 @@ Check each incoming referral against your own checklist and get a draft request 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/incoming-referral-completeness-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check)*
@@ -40,7 +40,7 @@ One check in a fixed order. A header gives the referral, where it is going, an o
 
 A document whose patient details do not match is set aside and never forwarded or mentioned in the request. When the referral names a service your practice does not list, the request is held until the practice administrator decides. The check sends nothing, books nothing and changes no record, and it ends by saying so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -60,7 +60,7 @@ Use it only in an AI product your practice has approved for this information, an
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template from its own published map of healthcare work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, with the edits made after the first run and review, and the template was run again on the example after the last of them. It has not been tested in a medical practice, and no practice administrator has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template from its own published map of healthcare work. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026; the record of that run is published with it, with the edits made after the first run and review, and the template was run again on the example after the last of them. It has not been tested in a medical practice, and no practice administrator has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on past referrals your coordinator already knows, with cases written in advance: an unsigned order, a visit note past your limit, a document belonging to another patient, a referral to a service you do not offer, a phone call about the patient's health. The coordinator opens every document and checks every line before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check) sets those cases up.
 
@@ -68,13 +68,13 @@ Testing in your practice means running it on past referrals your coordinator alr
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

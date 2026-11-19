@@ -1,11 +1,11 @@
-# Prior-authorization follow-up list: one trial on its invented example
+# Prior-authorization follow-up list: one trial on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Fable 5.2
 - **Date:** 2026-11-09
 - **Runs recorded:** one
 
-The inputs are the invented example published with this template. The practice, its people, its payers, the request numbers and the patient codes are invented, and no client data was used. This is a record of one run on that example. It is not a test in any medical practice.
+The inputs are the example published with this template. The practice, its people, its payers, the request numbers and the patient codes are illustrative, and no client data was used. This is a record of one run on that example. It is not a test in any medical practice.
 
 ## Inputs used
 
@@ -102,6 +102,6 @@ Nothing was called, sent or changed. A person decides and a person calls. Text i
 
 **Not exercised.** No stop condition applied to this example, so the stops (a missing column, patient names, no turnarounds, no as-of date) and the refusals (asked to call a payer, an instruction written in a cell) were not tried. Nor were a missing report, a missing schedule, a report with no date, a stale report, missing callers or physicians, a repeated request id, an unknown status, a schedule entry that matches no row, or a physician-owned request that is not yet due. The template's acceptance tests describe these cases; none has been run.
 
-**Limits of this record.** One recorded run, one product, one model, on the template's own invented example, after the template was changed to close gaps an earlier run on the same example had found. It shows the instructions can be followed to a complete list that matches the published example. It does not show the rules are right for any practice; the practice administrator still confirms each of them.
+**Limits of this record.** One recorded run, one product, one model, on the template's own example, after the template was changed to close gaps an earlier run on the same example had found. It shows the instructions can be followed to a complete list that matches the published example. It does not show the rules are right for any practice; the practice administrator still confirms each of them.
 
 **Edited after this run, 9 November 2026.** The template was edited after the recorded run and was not run again. The instructions and the note above the output format now say what a stopped reply looks like: the title line, the Outcome line reading "stopped" with the reason, and what is needed, with no sections. Outside the instructions, the template's wording for a missing report and for missing physicians was made consistent. No stop applied to this example, so the output above was not affected by the first change, and it has not been confirmed by a new run.

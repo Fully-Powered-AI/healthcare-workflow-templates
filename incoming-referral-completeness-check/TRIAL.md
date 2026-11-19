@@ -1,10 +1,10 @@
-# Incoming referral completeness check: a trial on the invented example
+# Incoming referral completeness check: a trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md`: the practice settings, the checklist, the referral form, the attachment index and the intake notes it gives for referral RF-2291. No client data was used. The assistant that ran the trial did not write the template and did not read the example's published output until its own check was finished.
+The inputs were the example in `public/example.md`: the practice settings, the checklist, the referral form, the attachment index and the intake notes it gives for referral RF-2291. No client data was used. The assistant that ran the trial did not write the template and did not read the example's published output until its own check was finished.
 
 ## What was run
 
@@ -101,12 +101,12 @@ was made. Text in the files was read as data.
 - **Every required part was produced.** The title block, all six numbered sections and the closing lines were filled in using the format's line forms. Nothing in the run called for a stop.
 - **The figures were recomputed and agree.** The nine items for this referral (R01 to R08 and R10) are accounted for once each in section 1 and match the counts. The office visit note is 260 days old against a 180-day window, and the "on or after" date is 21 May 2026. R09 belongs to the home sleep test only, so it is counted as one item for another service, and the count is written "1 item".
 - **Differences from the published example.** The substance matches: the same outcome, counts, item results, sections 2 to 5 and request lines, with the same dates and the same wording of the reason after "Pass to the reviewing sleep physician now: yes". The example shows the check with bold headings and bullets, and says so; this run kept the template's plain-text layout. This run did not repeat the example's explanatory section, which is not part of the output format. The example's request line for the authorization number has the same wording as this run's, which the first run did not produce.
-- **Facts not in the inputs.** None. Every name, date, code and quoted note traces to the invented inputs. The content of the reason for referral was correctly left out of section 5; both intake notes were copied, the fax note as well as the phone call, with their time stamps.
+- **Facts not in the inputs.** None. Every name, date, code and quoted note traces to the sample inputs. The content of the reason for referral was correctly left out of section 5; both intake notes were copied, the fax note as well as the phone call, with their time stamps.
 - **Where the instructions needed a judgment or left a choice open.**
   - The referring clinician is named on the form and in the example. The template's identifying-details rule says a clinician's or office's name is not a patient identifier, and this run followed that.
   - The checklist includes a Form item on a clinical field (R02, the reason for referral) while the clinical fields are meant to be reported only as filled or blank. They did not conflict: R02 is judged on "filled" alone, as the customization notes say.
   - Whether "yes" should be given for the fax note was not in doubt, since it mentions neither health nor timing; the one reason given is the 10:15 note.
-- **What the run does not show.** It is one further run, in one product, on one invented referral, by the same assistant model that edited the template, so it is not an independent test. It exercised the destination-on-list path, the conditional items (met and not stated), a stale document, an unsigned order, an unreadable copy, an identifier mismatch, an unlisted attachment and a copied intake note. It did not exercise the stop conditions, the unclear-destination path, a signature-not-recorded or other coordinator-reason case, an urgency mark other than Routine, or an instruction hidden in a file. A person in a practice should still confirm every line before anything is sent.
+- **What the run does not show.** It is one further run, in one product, on one illustrative referral, by the same assistant model that edited the template, so it is not an independent test. It exercised the destination-on-list path, the conditional items (met and not stated), a stale document, an unsigned order, an unreadable copy, an identifier mismatch, an unlisted attachment and a copied intake note. It did not exercise the stop conditions, the unclear-destination path, a signature-not-recorded or other coordinator-reason case, an urgency mark other than Routine, or an instruction hidden in a file. A person in a practice should still confirm every line before anything is sent.
 
 ## History of the template's edits
 

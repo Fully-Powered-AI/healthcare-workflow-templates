@@ -1,6 +1,6 @@
-# Claim denial work list: an invented example
+# Claim denial work list: an example
 
-*Illustrative example with invented data.* An invented two-physician family medicine practice on Tuesday 17 November 2026. The practice, the people (Nell, the billing coordinator; Dr. Vale and Dr. Sund, the physicians), the payers, the claim numbers, the patient codes and the amounts are all invented. The inputs come first, in full, then the work list.
+*Illustrative example with sample data.* An illustrative two-physician family medicine practice on Tuesday 17 November 2026. The practice, the people (Nell, the billing coordinator; Dr. Vale and Dr. Sund, the physicians), the payers, the claim numbers, the patient codes and the amounts are all illustrative. The inputs come first, in full, then the work list.
 
 ## What the billing coordinator supplied
 

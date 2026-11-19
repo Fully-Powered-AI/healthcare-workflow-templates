@@ -1,10 +1,10 @@
-# Provider credentialing and re-credentialing tracker: tried on its invented example
+# Provider credentialing and re-credentialing tracker: tried on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Sonnet 5.5 (model ID claude-sonnet-5-5), by Anthropic
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (the request, practice settings, `roster.csv` and `credential-items.csv`). No client data was used. Nothing was connected to any real system.
+The inputs were the example in `public/example.md` (the request, practice settings, `roster.csv` and `credential-items.csv`). No client data was used. Nothing was connected to any real system.
 
 ## How the trial was run
 

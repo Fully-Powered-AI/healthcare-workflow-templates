@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example on the example page: the request, the office settings and the lab case list `lab-cases.csv` (14 rows, with a Shade column), for the invented office on Monday 16 November 2026. No client data was used. This record replaces an earlier one whose output matched the example's tracker character for character and so could not be relied on. This run was made fresh and in order: the model read the template in full, read only the example's inputs (not its tracker, and not the earlier record), prepared the tracker from the template's instruction block and output format, saved it, and only then read the example's tracker and compared the two.
+The inputs were the example on the example page: the request, the office settings and the lab case list `lab-cases.csv` (14 rows, with a Shade column), for the illustrative office on Monday 16 November 2026. No client data was used. This record replaces an earlier one whose output matched the example's tracker character for character and so could not be relied on. This run was made fresh and in order: the model read the template in full, read only the example's inputs (not its tracker, and not the earlier record), prepared the tracker from the template's instruction block and output format, saved it, and only then read the example's tracker and compared the two.
 
 ## What came out
 
@@ -112,4 +112,4 @@ Other points about the template:
 - The example's introduction says the earlier run's output had the same words as the example with two entries broken across lines at different points, and the earlier record's output was in fact identical to the example. The two statements cannot both be true, which is another reason the earlier record was replaced.
 - The template does not say whether a lab that appears only on a row that could not be assessed is counted among the labs in the Coverage line. The example does not test it, because the one such row belongs to Lab C, which also has assessed rows.
 - Dates and the weekday were worked out by hand. The template's instruction to work out the weekday from the date was enough to reach Monday for 2026-11-16.
-- Not exercised: the stop paths, the decline paths, the instruction-in-a-cell case and the renamed-column case. This is one run on one set of invented inputs, not a test in a dental office.
+- Not exercised: the stop paths, the decline paths, the instruction-in-a-cell case and the renamed-column case. This is one run on one set of sample inputs, not a test in a dental office.

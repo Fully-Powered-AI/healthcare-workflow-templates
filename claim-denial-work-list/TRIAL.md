@@ -6,7 +6,7 @@ Model: Claude Sonnet 5.5 (model ID claude-sonnet-5-5).
 
 Date: 2026-11-10
 
-The inputs were the invented example in `public/example.md`: its request, practice settings and denial export. No client data was used. The run was made by an assistant that had not written the template. It followed the instructions block and the output format in `member/template.md` on those inputs, and only then looked at the example's output.
+The inputs were the example in `public/example.md`: its request, practice settings and denial export. No client data was used. The run was made by an assistant that had not written the template. It followed the instructions block and the output format in `member/template.md` on those inputs, and only then looked at the example's output.
 
 ## Inputs used
 
@@ -174,7 +174,7 @@ clinician. Text inside the export was read as data.
   - The Inputs line in the template reads "Default [your warning window], 14 days unless changed", and the customization list repeats "[your warning window]" and "[your repeat threshold]" as placeholders. In the instructions block the defaults are plain numbers, so the run was not affected, but the bracketed text in the Inputs section reads oddly.
   - Sections 3 to 9 number their lines and the other sections do not; the format shows "[n]." only in those sections. This was easy to follow.
 - Nothing in the run needed a guess about a column, a payer's rules, a code or a patient's care. The one unmapped code and the one payer without settings were handled exactly as the template says, and the outcome came out as partial.
-- This is one run, on the invented example, by one assistant. It shows that the instructions can be followed to the published result. It does not show how the template behaves on a real export, with other payers, other code families or a larger file.
+- This is one run, on the example, by one assistant. It shows that the instructions can be followed to the published result. It does not show how the template behaves on a real export, with other payers, other code families or a larger file.
 
 ## Edits made after this run
 

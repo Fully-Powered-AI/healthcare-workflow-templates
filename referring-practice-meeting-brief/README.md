@@ -8,7 +8,7 @@ Before meeting a referring office, get one brief: promises made and whether kept
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Healthcare · Customer success and account management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/referring-practice-meeting-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief)*
@@ -40,7 +40,7 @@ One brief in a fixed order: what the office raised; every commitment with its st
 
 The brief promises nothing, sends nothing and changes no log. It ends by saying so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -58,7 +58,7 @@ Decide what counts as evidence that a promise was kept; the template treats "don
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template from its own published map of healthcare administrative work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with it. It has not yet been tested in a medical practice or in a client environment, and no practice has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template from its own published map of healthcare administrative work. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026, and the record of that run is published with it. It has not yet been tested in a medical practice or in a client environment, and no practice has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it before two or three past meetings your liaison remembers, with cases written in advance: a promise marked done with no evidence, an overdue promise, a renamed column, a question that names a patient. The liaison checks every status and count against the logs before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief) sets those cases up.
 
@@ -66,13 +66,13 @@ Testing in your practice means running it before two or three past meetings your
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

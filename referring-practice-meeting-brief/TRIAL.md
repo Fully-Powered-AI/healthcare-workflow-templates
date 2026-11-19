@@ -1,10 +1,10 @@
-# Referring practice meeting brief: trial on the invented example
+# Referring practice meeting brief: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (Office K, the practice, the roles, the logs and the figures are all made up). No client data was used.
+The inputs were the example in `public/example.md` (Office K, the practice, the roles, the logs and the figures are all made up). No client data was used.
 
 **Not a blind run, and a second run.** The first run of this date was followed by an independent review, and the instruction block, the output format and the example were then edited slightly (see below). This is the re-run on the revised text, written on the same day. It was not blind: the example file, output included, and the first run's record were both read before the brief was worked out. The brief below was produced by following the revised instruction block and output format on the six inputs, with every count and date worked out again from the inputs, and it was then compared with the published output. Treat the match as a check of the arithmetic and the rules, not as proof that a fresh reader would reach the same brief unaided.
 
@@ -56,6 +56,6 @@ Every part of the output format was produced, in order, from the header to the c
 
 **Defects in the template text.** None that stopped the run. The gaps are the judgements listed above, especially numbers 1, 3 and 7.
 
-**Not tested in this run.** The stop conditions (renamed column, patient detail, instruction in a cell), the missing-input paths, the new rules for an unreadable date, a missing setting and an area with no owner, and the declined requests were not exercised, because the invented example triggers none of them. The acceptance tests were not run. This is one run, on one example, by one model.
+**Not tested in this run.** The stop conditions (renamed column, patient detail, instruction in a cell), the missing-input paths, the new rules for an unreadable date, a missing setting and an area with no owner, and the declined requests were not exercised, because the example triggers none of them. The acceptance tests were not run. This is one run, on one example, by one model.
 
 **Edits after this record (same day).** After the independent review, the template (not the example) was edited in small ways: a tie rule for a commitment that fits two topics (the topic with more questions in the period, then the earlier in the list), a closeness rule for "raised again" (same thing in plain words; when in doubt do not mark it and list it under "Check these"), a clause saying a question to an owner may ask for a date, a rule for a meeting under 13 minutes, the three kept statuses named in the "raised again" rule, and a reworded line about the output format. I did not re-run the brief in full. I re-derived the two points the new rules touch: C-05 fits Referral received (5 questions in the period) and Contact route (1), so it stays under Referral received as in the example; no commitment in the example needed a doubtful "raised again". The brief above is unchanged. Items 1, 2, 4 and 9 under "Where the template left a choice or a guess" describe the text as it stood when this run was made; the new rules address them, and they have not been exercised on a run. Items 3 and 7 remain open and are candidates for a later version.

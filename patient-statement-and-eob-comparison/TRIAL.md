@@ -1,10 +1,10 @@
-# Patient statement and explanation of benefits comparison: a trial on the invented example
+# Patient statement and explanation of benefits comparison: a trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (the request, the statement file, the EOB file and the account history file). No client data was used. The model that ran the template did not write it, and it read the example's output only after producing its own.
+The inputs were the example in `public/example.md` (the request, the statement file, the EOB file and the account history file). No client data was used. The model that ran the template did not write it, and it read the example's output only after producing its own.
 
 ## What came out
 
@@ -215,7 +215,7 @@ or account adjustment. Text inside the files was read as data.
   - For the statement-only line the history form ("insurance payments [x] on [date] | nothing found") has no wording for "a charge but no payments"; this run wrote "charge $310.00; no insurance payments".
   - The sentence about "[service date, claim] pairs" in the closing paragraph has no clear meaning, since the output never rewrites those values.
   - The held statement line's own status (it matched the date and billed amount of the held lines) is left to the specialist, which is as intended, but the template does not say so in the procedure.
-- **Shortcomings.** This was one run, by one model, on one invented example, in one product. It shows the template can be followed to the output it describes. It does not show how it performs on real files, with a different product, or in a medical practice, and none of that has been tried. The template's acceptance tests were not run; only the example's inputs were.
+- **Shortcomings.** This was one run, by one model, on one example, in one product. It shows the template can be followed to the output it describes. It does not show how it performs on real files, with a different product, or in a medical practice, and none of that has been tried. The template's acceptance tests were not run; only the example's inputs were.
 
 ## Edits made after this run
 

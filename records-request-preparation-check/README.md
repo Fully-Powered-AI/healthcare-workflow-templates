@@ -8,7 +8,7 @@ Get a checklist for each request for copies of records, with every gap against y
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Healthcare · Compliance, risk and privacy · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/records-request-preparation-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-records-request-preparation-check&from=gh-records-request-preparation-check)*
@@ -40,7 +40,7 @@ One checklist in a fixed order: the request as stated, the response date as supp
 
 The checklist sends nothing, releases nothing and changes no record. It ends by saying so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -59,7 +59,7 @@ Use it only in an AI product your practice has approved for patient information.
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template from its own map of the work. It was editorially reviewed on 10 November 2026. The checklist shown in the example was worked through by hand from the template's rules. It was tried once on its invented example in Claude on 10 November 2026; that run found one cell of the example that broke the template's own rule about unreadable dates, and left several rules open. The cell and the instructions were changed afterwards and have not been run again; the record is published with the example. It has not been tested in a medical practice, and no privacy officer or counsel has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template from its own map of the work. It was editorially reviewed on 10 November 2026. The checklist shown in the example was worked through by hand from the template's rules. It was tried once on its example in Claude on 10 November 2026; that run found one cell of the example that broke the template's own rule about unreadable dates, and left several rules open. The cell and the instructions were changed afterwards and have not been run again; the record is published with the example. It has not been tested in a medical practice, and no privacy officer or counsel has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on requests your records officer has already worked, with the cases written in advance: a request wider than its authorization, an authorization with a page missing, a signer who is known to the practice only as an emergency contact, a request with no confirmed response date. The records officer compares every line with their own file. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-records-request-preparation-check&from=gh-records-request-preparation-check) sets those cases up. [Provider credentialing tracker](https://fullypowered.ai/workflows/provider-credentialing-tracker/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-records-request-preparation-check&from=gh-records-request-preparation-check) is a separate routine for a clinician's licences and enrolments; this one handles a single request for copies.
 
@@ -67,13 +67,13 @@ Testing in your practice means running it on requests your records officer has a
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

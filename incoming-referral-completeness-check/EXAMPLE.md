@@ -1,6 +1,6 @@
-# Incoming referral completeness check: an invented example
+# Incoming referral completeness check: an example
 
-*Illustrative example with invented data.* An invented sleep medicine practice, Sleep Practice A, receives a referral from an invented family practice, Family Practice B, on Tuesday 17 November 2026. The practices, the referring doctor, the patient code, the documents and the dates are all invented. The inputs the referral coordinator supplied come first, in full, then the check.
+*Illustrative example with sample data.* An illustrative sleep medicine practice, Sleep Practice A, receives a referral from an illustrative family practice, Family Practice B, on Tuesday 17 November 2026. The practices, the referring doctor, the patient code, the documents and the dates are all illustrative. The inputs the referral coordinator supplied come first, in full, then the check.
 
 ## What the coordinator supplied
 

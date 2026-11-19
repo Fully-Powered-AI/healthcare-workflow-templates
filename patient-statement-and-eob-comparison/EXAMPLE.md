@@ -1,6 +1,6 @@
-# Patient statement and explanation of benefits comparison: an invented example
+# Patient statement and explanation of benefits comparison: an example
 
-*Illustrative example with invented data.* An invented family medicine practice. The practice, the billing specialist (Dana), the insurer (Insurer A), the patient code, the services, the claim numbers and every amount are invented. The inputs come first, in full, then the comparison.
+*Illustrative example with sample data.* An illustrative family medicine practice. The practice, the billing specialist (Dana), the insurer (Insurer A), the patient code, the services, the claim numbers and every amount are illustrative. The inputs come first, in full, then the comparison.
 
 ## What the billing specialist supplied
 

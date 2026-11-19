@@ -1,10 +1,10 @@
-# Records request preparation check: trial on the invented example
+# Records request preparation check: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (the practice, Patient A, Persons B and E and Counsel Q are all made up). No client data was used. The run was one pass by a session that did not write the template.
+The inputs were the example in `public/example.md` (the practice, Patient A, Persons B and E and Counsel Q are all made up). No client data was used. The run was one pass by a session that did not write the template.
 
 **How independent the run was.** The instructions say to take only the inputs from the example. A tool output showed the first lines of the example's checklist (the title line, "Outcome: complete" and the start of the Coverage line) before the run began. Nothing else of the example's output was seen until after the output below was written and saved. The output below was worked from the template's instruction block and output format and the example's inputs only. The first lines seen did not match the result (the run came out "partial"), so they did not steer it.
 

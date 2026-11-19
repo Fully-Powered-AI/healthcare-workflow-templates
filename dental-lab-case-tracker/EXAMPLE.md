@@ -1,6 +1,6 @@
-# Dental lab case tracker: an invented example
+# Dental lab case tracker: an example
 
-*Illustrative example with invented data.* An invented two-dentist general dental office on Monday 16 November 2026. The office, the people (Noor, the office coordinator; Bettina, the office manager; the dentists Dr. K and Dr. M), the three labs (Lab A, Lab B and Lab C) and every patient reference are invented. The inputs come first, in full, then the tracker.
+*Illustrative example with sample data.* An illustrative two-dentist general dental office on Monday 16 November 2026. The office, the people (Noor, the office coordinator; Bettina, the office manager; the dentists Dr. K and Dr. M), the three labs (Lab A, Lab B and Lab C) and every patient reference are illustrative. The inputs come first, in full, then the tracker.
 
 ## What the coordinator supplied
 

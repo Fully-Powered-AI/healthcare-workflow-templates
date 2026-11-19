@@ -8,7 +8,7 @@ Answer a patient's billing question with the statement and explanation of benefi
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/patient-statement-and-eob-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-patient-statement-and-eob-comparison&from=gh-patient-statement-and-eob-comparison)*
@@ -40,7 +40,7 @@ One comparison in a fixed order: a summary, the line-by-line blocks, the amounts
 
 Then the draft reply. The comparison changes no code, judges no coding or medical necessity, adjusts no account, and sends nothing.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -59,7 +59,7 @@ Use it only in an AI product your practice has approved for this information, an
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words, from its own published map of the work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. It has not been tested in a medical practice, and no practice’s billing lead has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words, from its own published map of the work. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. It has not been tested in a medical practice, and no practice’s billing lead has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on past patient questions your specialist has already answered, with cases written in advance: a payment posted after the statement date, a patient payment missing from the balance, a service on one document and not the other, a page not supplied. The specialist checks every figure against both documents before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-patient-statement-and-eob-comparison&from=gh-patient-statement-and-eob-comparison) sets those cases up.
 
@@ -67,13 +67,13 @@ Testing in your practice means running it on past patient questions your special
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

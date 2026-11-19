@@ -1,6 +1,6 @@
-# Referring practice meeting brief: an invented example
+# Referring practice meeting brief: an example
 
-*Illustrative example with invented data.* An invented orthopedic practice prepares for a meeting with Office K, an invented family-medicine office that sends it patients. The practice, the office, the roles, the commitments, the questions, the figures and the phone number are all invented. People appear by role only. First come the inputs the practice liaison supplied, in full, then the brief.
+*Illustrative example with sample data.* An illustrative orthopedic practice prepares for a meeting with Office K, an illustrative family-medicine office that sends it patients. The practice, the office, the roles, the commitments, the questions, the figures and the phone number are all illustrative. People appear by role only. First come the inputs the practice liaison supplied, in full, then the brief.
 
 ## The inputs
 

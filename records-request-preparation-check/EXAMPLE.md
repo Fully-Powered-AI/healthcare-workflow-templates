@@ -1,6 +1,6 @@
-# Records request preparation check: an invented example
+# Records request preparation check: an example
 
-*Illustrative example with invented data.* An invented family-medicine practice, on Monday 16 November 2026. The practice, the people (Renata, the records officer; Odile, who leads privacy; Counsel Q, who confirmed the response date) and the patient and requesters (Patient A, Person B, Person E, Patient F) are all invented. The inputs come first, in full, then the checklist.
+*Illustrative example with sample data.* An illustrative family-medicine practice, on Monday 16 November 2026. The practice, the people (Renata, the records officer; Odile, who leads privacy; Counsel Q, who confirmed the response date) and the patient and requesters (Patient A, Person B, Person E, Patient F) are all illustrative. The inputs come first, in full, then the checklist.
 
 ## What the records officer supplied
 

@@ -8,7 +8,7 @@ Start each morning with a list of authorization requests to chase, procedures bo
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list)*
@@ -41,7 +41,7 @@ One follow-up list in a fixed order, opening with an outcome line and a coverage
 
 The list calls no one, sends nothing and changes no record. It ends by saying so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -59,7 +59,7 @@ Use it only in an AI product your practice has approved for this information, an
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template from its own worked illustration, built for an invented practice. It was editorially reviewed on 9 November 2026. It was run on its invented example in Claude on 9 November 2026, and the record is published with it: two earlier runs that day led to changes, and the recorded run is the last. A run on an invented example is not a test. It has not been tested in a medical practice, and no practice owner has reviewed its rules. Our earlier build of this workflow template was scored only against an answer key written by the same build, which shows the build agreed with itself; we do not count that as a test. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template from its own worked illustration, built for an illustrative practice. It was editorially reviewed on 9 November 2026. It was run on its example in Claude on 9 November 2026, and the record is published with it: two earlier runs that day led to changes, and the recorded run is the last. A run on an example is not a test. It has not been tested in a medical practice, and no practice owner has reviewed its rules. Our earlier build of this workflow template was scored only against an answer key written by the same build, which shows the build agreed with itself; we do not count that as a test. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on past weeks your coordinator already knows, with cases written in advance: a request with no submission date, a payer with no turnaround on file, a booked procedure that is still pending, a request missing from the list. The coordinator checks every date and every row against the spreadsheet before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list) sets those cases up, and [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list) is how the coordinator’s unwritten rules get written down first.
 
@@ -67,13 +67,13 @@ Testing in your practice means running it on past weeks your coordinator already
 - Sources and rights reviewed.
 - Editorially reviewed on 9 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 9 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 9 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

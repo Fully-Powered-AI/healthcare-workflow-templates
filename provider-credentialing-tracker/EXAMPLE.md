@@ -1,6 +1,6 @@
-# Provider credentialing and re-credentialing tracker: an invented example
+# Provider credentialing and re-credentialing tracker: an example
 
-*Illustrative example with invented data.* An invented family-medicine practice with four clinicians, on Monday 16 November 2026. The practice, the people (Marisol, the credentialing coordinator; Teodor, the practice manager; the clinicians Dr. A, Dr. B, NP C, PA D and Dr. E), the boards, the insurer and the payers are all invented. The inputs come first, in full, then the tracker.
+*Illustrative example with sample data.* An illustrative family-medicine practice with four clinicians, on Monday 16 November 2026. The practice, the people (Marisol, the credentialing coordinator; Teodor, the practice manager; the clinicians Dr. A, Dr. B, NP C, PA D and Dr. E), the boards, the insurer and the payers are all illustrative. The inputs come first, in full, then the tracker.
 
 ## What the coordinator supplied
 

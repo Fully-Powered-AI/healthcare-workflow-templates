@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-This run used only the invented inputs from the worked example (`public/example.md`): the physiotherapy practice called Practice A, its settings, its five pieces of approved wording, the two exports, the open-slots list and the morning's reply notes. No client data was used. The assistant that ran it did not write the template. It followed the instruction block and the output format in `member/template.md`, and it did not read the example's output until its own list was finished.
+This run used only the sample inputs from the worked example (`public/example.md`): the physiotherapy practice called Practice A, its settings, its five pieces of approved wording, the two exports, the open-slots list and the morning's reply notes. No client data was used. The assistant that ran it did not write the template. It followed the instruction block and the output format in `member/template.md`, and it did not read the example's output until its own list was finished.
 
 ## What came out
 
@@ -84,7 +84,7 @@ Nobody was called or messaged and no booking was changed. Staff place every call
 - **The slot rules were followable.** Marcus ruled out Friday, so S-01 was left out for him, S-03 ("Monday after 4") came first, then S-02 and S-06. That left only S-01 for Tobias, and the "only 1 offered" line applied. Ruth is already booked for tomorrow, so she got no slots and no wording. S-08 is on the closed day.
 - **Difference from the published example.** The content matches the example's output line for line: the same counts, replies, slots, filled wording and flags. The example is dressed with bold headings and bullets, which it says. The run's own differences are small. It wrote "Friday 20 November 2026" where the example writes "Friday, 20 November 2026", it kept the template's plain-text layout, and the "Inputs" line says "wording approved by Elif" without naming her role, which the example does. *(Later note: the example was changed after this run and now writes "Friday 20 November 2026" without the comma, as the run did; see "Edits made after this run".)*
 - **Facts not in the inputs.** None found in this run's list. In the example, the role "practice manager" for Elif comes from its introduction rather than from the supplied inputs, though it is consistent with them.
-- **Reviewer checklist.** Items 1 to 5 and 7 could be checked against the inputs and held. Items 6 and 8 need the real diary and the practice manager and cannot be checked on an invented example.
+- **Reviewer checklist.** Items 1 to 5 and 7 could be checked against the inputs and held. Items 6 and 8 need the real diary and the practice manager and cannot be checked on an example.
 
 ### Ambiguities and shortcomings in the template
 
@@ -95,7 +95,7 @@ Nobody was called or messaged and no booking was changed. Staff place every call
 5. **A blank contact method on a booking that needs staff.** Sami's wording is not printed because a reply is recorded, yet the template still asks for the blank contact method to be flagged. This was done, but the printed list shows no script that the flag refers to.
 6. **Date format.** The output format writes "[weekday, date]" without saying whether to include the year or a comma.
 7. **Stale statements in the template.** Its version notes say it has not been tried on its example, and its acceptance tests say none has been run. The first is out of date as of this record. This run covered only the ordinary-day case, not the other seventeen acceptance tests.
-8. **One run.** A single run on a single invented day, by one model, shows the template can be followed. It does not show that every acceptance test passes, and it says nothing about a real practice's exports or scheduling system.
+8. **One run.** A single run on a single illustrative day, by one model, shows the template can be followed. It does not show that every acceptance test passes, and it says nothing about a real practice's exports or scheduling system.
 
 ## Edits made after this run
 

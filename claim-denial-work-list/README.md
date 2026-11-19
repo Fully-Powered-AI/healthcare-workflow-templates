@@ -8,7 +8,7 @@ Every denied claim from your remittance export on one work list by deadline and 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/claim-denial-work-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list)*
@@ -40,7 +40,7 @@ One work list in a fixed order, opening with an outcome line and a coverage line
 
 Every section is always present, so an empty one reads “None” and a missing setting reads “Not checked”, never as a clean result. The list submits nothing, writes nothing off, contacts no one and changes no record. It ends by saying so.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -59,7 +59,7 @@ Use it only in an AI product your practice has approved for this information, an
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words, drawing on one published Apache-2.0 method credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. It has not been tested in a medical practice, and no practice’s billing lead has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words, drawing on one published Apache-2.0 method credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. It has not been tested in a medical practice, and no practice’s billing lead has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on a past month of denials your coordinator already knows, with cases written in advance: a deadline that has passed, a payer with no settings, a reason code missing from the map, a timely-filing denial where the claim did go out in time. The coordinator checks every deadline against the remittance before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list) sets those cases up.
 
@@ -67,13 +67,13 @@ Testing in your practice means running it on a past month of denials your coordi
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

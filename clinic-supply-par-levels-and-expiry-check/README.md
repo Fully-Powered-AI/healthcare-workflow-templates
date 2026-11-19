@@ -8,7 +8,7 @@ Par levels, reorder points, expiry warnings and a draft order from your clinic鈥
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template 路 Healthcare 路 Supply chain and inventory 路 version 0.1.0 路 [Workflows Directory](https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c)*
@@ -45,7 +45,7 @@ One sheet in a fixed order, opening with what was read and what could not be ass
 
 The sheet orders, moves and discards nothing, and it says so at the end.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -64,7 +64,7 @@ Use it only in an AI product your practice has approved for its business data.
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template in its own words, drawing on one published hospital logistics method that is credited with this entry. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in two runs; the record of the second, made after small fixes from its review, is published with it. It has not been tested in a medical practice, and no practice manager has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template in its own words, drawing on one published hospital logistics method that is credited with this entry. It was editorially reviewed on 10 November 2026. It was tried on its example on 10 November 2026 in two runs; the record of the second, made after small fixes from its review, is published with it. It has not been tested in a medical practice, and no practice manager has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your practice means running it on two or three past counts your supply lead already knows, with cases written in advance: a lot that has already expired, a lot that will only partly be used, a medicine on the count, an item missing from the item list, a renamed column. The supply lead checks every par and every order line before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c) sets those cases up, and [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c) helps when the order shows it is time to compare suppliers.
 
@@ -72,13 +72,13 @@ Testing in your practice means running it on two or three past counts your suppl
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
