@@ -3,7 +3,7 @@
 Par levels, reorder points, expiry warnings and a draft order from your clinic’s own stock and usage exports. A person approves every order.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Clinic supply par levels and expiry check on our website](https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Clinic supply par levels and expiry check on our website](https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Quick start**
 
