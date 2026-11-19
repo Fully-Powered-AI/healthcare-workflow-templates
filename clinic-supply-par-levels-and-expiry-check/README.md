@@ -4,6 +4,8 @@ From the clinic's own stock-count and usage exports, the person who orders suppl
 
 *Workflow template · Healthcare · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/?from=gh-clinic-supply-par-levels-and-expiry-c)
+
 ## The outcome
 
 Every room in the clinic has a number for every item it stocks, worked out from what that room actually used rather than from habit. The par says how much the room should hold after each restock; the reorder point says when it cannot wait for the next order. Both show their arithmetic, so anyone can check a line with a calculator.

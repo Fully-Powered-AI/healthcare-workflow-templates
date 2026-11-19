@@ -4,6 +4,8 @@ The billing coordinator gets every denied claim from the practice’s remittance
 
 *Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/claim-denial-work-list/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/claim-denial-work-list/?from=gh-healthcare-claim-denial-work-list)
+
 ## The outcome
 
 Denials stop sitting in a pile that gets worked in whatever order they arrived. The billing coordinator opens one list that starts with anything whose appeal deadline has already passed and anything due inside the next two weeks. Below that, every denial sits in its group, soonest deadline first and larger amounts ahead of smaller ones, with a plain statement of the records that would clear it: the clearinghouse acceptance report for a claim the payer says arrived late, the authorization on file, the patient’s insurance details for the date of service.

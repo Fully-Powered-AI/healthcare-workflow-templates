@@ -4,6 +4,8 @@ A billing specialist answering a patient’s question gets the statement and the
 
 *Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/patient-statement-and-eob-comparison/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/patient-statement-and-eob-comparison/?from=gh-patient-statement-and-eob-comparison)
+
 ## The outcome
 
 A patient calls or writes: the statement says one thing and the insurer’s explanation of benefits says another. Instead of laying two documents side by side and hunting, the billing specialist opens one comparison. Each service date is a block showing the billed, allowed, paid, adjusted and patient-responsibility amounts from both sides, whether they agree, and the page each figure came from.

@@ -4,6 +4,8 @@ The credentialing coordinator keeps one tracker per clinician: each licence, reg
 
 *Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/provider-credentialing-tracker/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/provider-credentialing-tracker/?from=gh-provider-credentialing-tracker)
+
 ## The outcome
 
 Nothing lapses because the date lived in someone's inbox. Every clinician has one page listing each item your practice requires, where it was confirmed, the date it runs out or next needs checking, and the date work on it should begin, counted back from that deadline by the lead time you set.

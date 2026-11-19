@@ -4,6 +4,8 @@ The office coordinator keeps one tracker of every case at an outside dental lab:
 
 *Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/dental-lab-case-tracker/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/dental-lab-case-tracker/?from=gh-healthcare-dental-lab-case-tracker)
+
 ## The outcome
 
 No patient sits in the chair for work that is still at the lab. Every case out at a lab is set against the patient's seating appointment, with a few days held back so the dentist can look the work over first, and the coordinator sees each morning which cases to chase, which seatings are already in danger, and which patients still need booking.

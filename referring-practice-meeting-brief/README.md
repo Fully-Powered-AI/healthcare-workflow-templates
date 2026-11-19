@@ -4,6 +4,8 @@ Before meeting a referring office that has raised handoff problems, the practice
 
 *Workflow template · Healthcare · Customer success and account management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/referring-practice-meeting-brief/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/referring-practice-meeting-brief/?from=gh-referring-practice-meeting-brief)
+
 ## The outcome
 
 The liaison walks in knowing the practice's side of the story before the office tells it. Every promise made to that office is on the page with its status taken from your own log: kept, kept late, overdue, or marked done with nothing to show for it. A promise recorded as kept is flagged when the same subject keeps coming back, so nobody defends a fix that has stopped working.

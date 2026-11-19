@@ -4,6 +4,8 @@ The front desk gets tomorrow’s bookings from the appointment export with the p
 
 *Workflow template · Healthcare · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/?from=gh-appointment-confirmation-and-no-show)
+
 ## The outcome
 
 Your front desk starts each confirmation round with the whole of tomorrow on one list: who to call, who to text, who has already confirmed and who the practice has been asked not to contact. Every booking carries the exact words your practice approved, with the patient’s first name, the day, the time and the place already filled in, so whoever is on the desk says the same thing the same way.

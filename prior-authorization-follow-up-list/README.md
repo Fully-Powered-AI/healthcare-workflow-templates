@@ -4,6 +4,8 @@ Each morning the referral coordinator gets one list from the practice’s own sp
 
 *Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/?from=gh-prior-authorization-follow-up-list)
+
 ## The outcome
 
 Whoever sits at the referral desk sees the same thing, in the same order, every day. Procedures on the schedule without an approval come first. Then the requests that are past the payer’s turnaround with no call logged, soonest procedure first. Then the requests where the payer is waiting on the practice, the ones nobody can prove were submitted, and the ones that are in your system and never reached the list.

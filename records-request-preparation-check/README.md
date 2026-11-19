@@ -4,6 +4,8 @@ When a request for copies of records arrives, the records officer gets a checkli
 
 *Workflow template · Healthcare · Compliance, risk and privacy · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/records-request-preparation-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/records-request-preparation-check/?from=gh-records-request-preparation-check)
+
 ## The outcome
 
 The records officer opens a request knowing, in one page, what has been asked for, what the paperwork behind it actually says, and what is still missing. Where the request and a document disagree, both wordings sit side by side. Where the practice's own procedure asks for something the request does not carry, the gap is named, with the person who resolves it.

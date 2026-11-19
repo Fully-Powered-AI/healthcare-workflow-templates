@@ -4,6 +4,8 @@ When a referral arrives, the coordinator gets one checklist: what the referring 
 
 *Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/incoming-referral-completeness-check/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/incoming-referral-completeness-check/?from=gh-incoming-referral-completeness-check)
+
 ## The outcome
 
 Every referral gets the same check on the day it lands, against the list your practice already keeps. The coordinator sees in one place what arrived, what is missing, and what came but will not do: an order nobody signed, a visit note older than your limit, an insurance card copied on one side. Each gap is already written into a request to the referring office, so that office is asked once, for everything, instead of piece by piece as each gap turns up at booking.
