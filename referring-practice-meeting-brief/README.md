@@ -1,10 +1,17 @@
 # Referring practice meeting brief
 
-Before meeting a referring office that has raised handoff problems, the practice liaison gets one brief: what was promised to that office and whether each promise was kept, the questions its staff keep asking, counted by topic, and a proposed agenda. Counts only, no patient detail; the liaison decides.
+Before meeting a referring office, get one brief: promises made and whether kept, recurring questions counted, and an agenda. The liaison decides.
 
-*Workflow template · Healthcare · Customer success and account management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/referring-practice-meeting-brief/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Referring practice meeting brief on our website](https://fullypowered.ai/workflows/referring-practice-meeting-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/referring-practice-meeting-brief/?from=gh-referring-practice-meeting-brief)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Healthcare · Customer success and account management · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/referring-practice-meeting-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief)*
 
 ## The outcome
 
@@ -37,11 +44,11 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Healthcare](https://fullypowered.ai/industries/healthcare/): specialty practices, imaging centers and outpatient services that depend on other offices sending them patients.
-- [Customer success and account management](https://fullypowered.ai/functions/customer-success-and-account-management/): looking after an existing relationship whose working arrangements have frayed. Winning a new referring office is sales work; the [sales call preparation brief](https://fullypowered.ai/workflows/sales-call-preparation-brief/) covers that conversation.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/): the meeting turns repeated complaints into a short list of handoff fixes with named owners.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): a practice whose referral relationships run on one liaison's memory.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/): a practice adding services or sites faster than its referral desk adapts.
+- [Healthcare](https://fullypowered.ai/industries/healthcare/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief): specialty practices, imaging centers and outpatient services that depend on other offices sending them patients.
+- [Customer success and account management](https://fullypowered.ai/functions/customer-success-and-account-management/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief): looking after an existing relationship whose working arrangements have frayed. Winning a new referring office is sales work; the [sales call preparation brief](https://fullypowered.ai/workflows/sales-call-preparation-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief) covers that conversation.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief): the meeting turns repeated complaints into a short list of handoff fixes with named owners.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief): a practice whose referral relationships run on one liaison's memory.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief): a practice adding services or sites faster than its referral desk adapts.
 
 ## What has to change for your company
 
@@ -53,7 +60,7 @@ Decide what counts as evidence that a promise was kept; the template treats "don
 
 FullyPowered AI wrote this workflow template from its own published map of healthcare administrative work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with it. It has not yet been tested in a medical practice or in a client environment, and no practice has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it before two or three past meetings your liaison remembers, with cases written in advance: a promise marked done with no evidence, an overdue promise, a renamed column, a question that names a patient. The liaison checks every status and count against the logs before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your practice means running it before two or three past meetings your liaison remembers, with cases written in advance: a promise marked done with no evidence, an overdue promise, a renamed column, a question that names a patient. The liaison checks every status and count against the logs before anyone relies on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief) sets those cases up.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -80,10 +87,10 @@ Testing in your practice means running it before two or three past meetings your
 
 ## Related workflow templates
 
-- [Sales call preparation brief](https://fullypowered.ai/workflows/sales-call-preparation-brief/)
-- [Meeting agenda, notes and follow-ups](https://fullypowered.ai/workflows/meeting-agenda-notes-and-follow-ups/)
-- [Quarterly business review preparation](https://fullypowered.ai/workflows/quarterly-business-review-preparation/)
+- [Sales call preparation brief](https://fullypowered.ai/workflows/sales-call-preparation-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief)
+- [Meeting agenda, notes and follow-ups](https://fullypowered.ai/workflows/meeting-agenda-notes-and-follow-ups/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief)
+- [Quarterly business review preparation](https://fullypowered.ai/workflows/quarterly-business-review-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-referring-practice-meeting-brief&from=gh-referring-practice-meeting-brief).

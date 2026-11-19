@@ -1,10 +1,17 @@
 # Prior-authorization follow-up list
 
-Each morning the referral coordinator gets one list from the practice’s own spreadsheet: which authorization requests to chase today, which procedures are booked without an approval, what the payer is waiting on, and what the list is missing. A person makes every call.
+Start each morning with a list of authorization requests to chase, procedures booked without approval and what the payer awaits. A person makes every call.
 
-*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Prior-authorization follow-up list on our website](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/?from=gh-prior-authorization-follow-up-list)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list)*
 
 ## The outcome
 
@@ -38,9 +45,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Healthcare](https://fullypowered.ai/industries/healthcare/): the administrative side of a medical practice that submits prior-authorization requests for imaging, injections and procedures.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/): a daily procedure that lives in one person’s head becomes one anyone covering the desk can run.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): a practice with a long-serving coordinator, a working spreadsheet and rules that were never written down.
+- [Healthcare](https://fullypowered.ai/industries/healthcare/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list): the administrative side of a medical practice that submits prior-authorization requests for imaging, injections and procedures.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list): a daily procedure that lives in one person’s head becomes one anyone covering the desk can run.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list): a practice with a long-serving coordinator, a working spreadsheet and rules that were never written down.
 
 ## What has to change for your company
 
@@ -54,7 +61,7 @@ Use it only in an AI product your practice has approved for this information, an
 
 FullyPowered AI wrote this workflow template from its own worked illustration, built for an invented practice. It was editorially reviewed on 9 November 2026. It was run on its invented example in Claude on 9 November 2026, and the record is published with it: two earlier runs that day led to changes, and the recorded run is the last. A run on an invented example is not a test. It has not been tested in a medical practice, and no practice owner has reviewed its rules. Our earlier build of this workflow template was scored only against an answer key written by the same build, which shows the build agreed with itself; we do not count that as a test. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it on past weeks your coordinator already knows, with cases written in advance: a request with no submission date, a payer with no turnaround on file, a booked procedure that is still pending, a request missing from the list. The coordinator checks every date and every row against the spreadsheet before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/) is how the coordinator’s unwritten rules get written down first.
+Testing in your practice means running it on past weeks your coordinator already knows, with cases written in advance: a request with no submission date, a payer with no turnaround on file, a booked procedure that is still pending, a request missing from the list. The coordinator checks every date and every row against the spreadsheet before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list) sets those cases up, and [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list) is how the coordinator’s unwritten rules get written down first.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -81,9 +88,9 @@ Testing in your practice means running it on past weeks your coordinator already
 
 ## Related workflow templates
 
-- [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
+- [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-prior-authorization-follow-up-list&from=gh-prior-authorization-follow-up-list).

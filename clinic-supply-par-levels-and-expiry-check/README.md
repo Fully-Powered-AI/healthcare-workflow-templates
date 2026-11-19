@@ -1,10 +1,17 @@
 # Clinic supply par levels and expiry check
 
-From the clinic's own stock-count and usage exports, the person who orders supplies gets a par level and reorder point for every item in every room, what is below par, what will expire before it is used, and a draft order. Medical-surgical and office supplies only; a person approves every order.
+Par levels, reorder points, expiry warnings and a draft order from your clinic’s own stock and usage exports. A person approves every order.
 
-*Workflow template · Healthcare · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Clinic supply par levels and expiry check on our website](https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/?from=gh-clinic-supply-par-levels-and-expiry-c)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Healthcare · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/clinic-supply-par-levels-and-expiry-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c)*
 
 ## The outcome
 
@@ -42,16 +49,16 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Healthcare](https://fullypowered.ai/industries/healthcare/): the supply cupboard of a medical, dental or specialty practice, where exam and procedure rooms each keep their own stock.
-- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/): par levels, reorder points and earliest-date-first rotation applied room by room.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): a practice whose pars were set years ago and live on shelf labels nobody has checked against use.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/): a practice adding rooms or providers, where last year's pars no longer match the week.
+- [Healthcare](https://fullypowered.ai/industries/healthcare/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c): the supply cupboard of a medical, dental or specialty practice, where exam and procedure rooms each keep their own stock.
+- [Supply chain and inventory](https://fullypowered.ai/functions/supply-chain-and-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c): par levels, reorder points and earliest-date-first rotation applied room by room.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c): a practice whose pars were set years ago and live on shelf labels nobody has checked against use.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c): a practice adding rooms or providers, where last year's pars no longer match the week.
 
 ## What has to change for your company
 
 Start with your own rooms and your own item list; the template supplies neither. Add your suppliers' delivery times, how often you order, and your closed days. Match the column names to what your systems export.
 
-Several rules are our editorial choices, and the practice manager should confirm or change each: the par covers the days between orders, the delivery time and a two-day buffer; an item is treated as expired on its date; the warning period is 60 days; open orders are subtracted in full; spare stock in another room is shown and never subtracted; and only the med-surg and office categories are assessed. The complete list is in the template. Online stores should use [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/), which works from sales rather than rooms.
+Several rules are our editorial choices, and the practice manager should confirm or change each: the par covers the days between orders, the delivery time and a two-day buffer; an item is treated as expired on its date; the warning period is 60 days; open orders are subtracted in full; spare stock in another room is shown and never subtracted; and only the med-surg and office categories are assessed. The complete list is in the template. Online stores should use [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c), which works from sales rather than rooms.
 
 Use it only in an AI product your practice has approved for its business data.
 
@@ -59,7 +66,7 @@ Use it only in an AI product your practice has approved for its business data.
 
 FullyPowered AI wrote this workflow template in its own words, drawing on one published hospital logistics method that is credited with this entry. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in two runs; the record of the second, made after small fixes from its review, is published with it. It has not been tested in a medical practice, and no practice manager has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it on two or three past counts your supply lead already knows, with cases written in advance: a lot that has already expired, a lot that will only partly be used, a medicine on the count, an item missing from the item list, a renamed column. The supply lead checks every par and every order line before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/) helps when the order shows it is time to compare suppliers.
+Testing in your practice means running it on two or three past counts your supply lead already knows, with cases written in advance: a lot that has already expired, a lot that will only partly be used, a medicine on the count, an item missing from the item list, a renamed column. The supply lead checks every par and every order line before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c) sets those cases up, and [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c) helps when the order shows it is time to compare suppliers.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -86,10 +93,10 @@ Testing in your practice means running it on two or three past counts your suppl
 
 ## Related workflow templates
 
-- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
-- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c)
+- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c)
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-clinic-supply-par-levels-and-expiry-check&from=gh-clinic-supply-par-levels-and-expiry-c).

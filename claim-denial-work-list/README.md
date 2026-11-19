@@ -1,10 +1,17 @@
 # Claim denial work list
 
-The billing coordinator gets every denied claim from the practice’s remittance export on one work list, sorted by kind of denial, appeal deadline and amount, with the paperwork each one needs and a short summary of where denials keep starting. Staff decide every appeal.
+Every denied claim from your remittance export on one work list by deadline and amount, with the paperwork each needs. Staff decide every appeal.
 
-*Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/claim-denial-work-list/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Claim denial work list on our website](https://fullypowered.ai/workflows/claim-denial-work-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/claim-denial-work-list/?from=gh-healthcare-claim-denial-work-list)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Healthcare · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/claim-denial-work-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list)*
 
 ## The outcome
 
@@ -37,10 +44,10 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Healthcare](https://fullypowered.ai/industries/healthcare/): the billing office of a medical practice that receives remittances with denial reason codes from several payers.
-- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/): denied claims are money the practice has earned and not yet collected, and each one has a deadline.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): a practice whose denial work lives in one coordinator’s habits and a spreadsheet nobody else reads.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/): a practice adding providers or payers faster than its billing office can keep track of each payer’s rules.
+- [Healthcare](https://fullypowered.ai/industries/healthcare/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list): the billing office of a medical practice that receives remittances with denial reason codes from several payers.
+- [Finance and accounting](https://fullypowered.ai/functions/finance-and-accounting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list): denied claims are money the practice has earned and not yet collected, and each one has a deadline.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list): a practice whose denial work lives in one coordinator’s habits and a spreadsheet nobody else reads.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list): a practice adding providers or payers faster than its billing office can keep track of each payer’s rules.
 
 ## What has to change for your company
 
@@ -48,13 +55,13 @@ Your payers come first: each one’s appeal window and filing limit, and the dat
 
 Several rules are our editorial choices, and your billing lead should confirm or change each: denials are grouped by who clears them; a passed deadline comes first and leaves its group; the order is deadline, then amount, and never by patient or provider; remark codes are shown but not interpreted; the warning window is fourteen days and a pattern is three rows. The complete list is in the template.
 
-Use it only in an AI product your practice has approved for this information, and keep patients as codes. It does not write appeals: your staff do. For the neighbouring work, see [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/) and [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/).
+Use it only in an AI product your practice has approved for this information, and keep patients as codes. It does not write appeals: your staff do. For the neighbouring work, see [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list) and [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list).
 
 ## What has been checked
 
 FullyPowered AI wrote this workflow template in its own words, drawing on one published Apache-2.0 method credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. It has not been tested in a medical practice, and no practice’s billing lead has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it on a past month of denials your coordinator already knows, with cases written in advance: a deadline that has passed, a payer with no settings, a reason code missing from the map, a timely-filing denial where the claim did go out in time. The coordinator checks every deadline against the remittance before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your practice means running it on a past month of denials your coordinator already knows, with cases written in advance: a deadline that has passed, a payer with no settings, a reason code missing from the map, a timely-filing denial where the claim did go out in time. The coordinator checks every deadline against the remittance before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list) sets those cases up.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -82,9 +89,9 @@ Testing in your practice means running it on a past month of denials your coordi
 ## Related workflow templates
 
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
-- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
+- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-claim-denial-work-list&from=gh-healthcare-claim-denial-work-list).

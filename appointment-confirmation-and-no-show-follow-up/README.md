@@ -1,10 +1,17 @@
 # Appointment confirmation and no-show follow-up
 
-The front desk gets tomorrow’s bookings from the appointment export with the practice’s approved script or message filled in for each, every reply recorded once staff have called, and today’s no-shows with open slots to offer them. Staff make every call and every diary change.
+Give the front desk tomorrow's confirmation list in the practice's approved words, with no-shows and open slots to offer. Staff make every call.
 
-*Workflow template · Healthcare · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Appointment confirmation and no-show follow-up on our website](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/?from=gh-appointment-confirmation-and-no-show)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Healthcare · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show)*
 
 ## The outcome
 
@@ -38,13 +45,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Healthcare](https://fullypowered.ai/industries/healthcare/): the front desk of a medical, dental or therapy practice that confirms the next day’s appointments and follows up the ones missed today.
-- [Professional services](https://fullypowered.ai/industries/professional-services/): any firm whose day runs on booked appointments with clients.
-- [Education](https://fullypowered.ai/industries/education/): tutoring and lesson providers who confirm sessions and rebook the ones missed.
-- [Customer support and service](https://fullypowered.ai/functions/customer-support-and-service/): the daily contact with people about their bookings, done in approved words.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/): a confirmation routine that lives in one coordinator’s habits becomes one anyone covering the desk can run.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): a practice with a working diary, a long-serving desk and no written routine.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/): a practice adding providers or sites faster than the desk can keep track of who has confirmed.
+- [Healthcare](https://fullypowered.ai/industries/healthcare/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show): the front desk of a medical, dental or therapy practice that confirms the next day’s appointments and follows up the ones missed today.
+- [Professional services](https://fullypowered.ai/industries/professional-services/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show): any firm whose day runs on booked appointments with clients.
+- [Education](https://fullypowered.ai/industries/education/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show): tutoring and lesson providers who confirm sessions and rebook the ones missed.
+- [Customer support and service](https://fullypowered.ai/functions/customer-support-and-service/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show): the daily contact with people about their bookings, done in approved words.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show): a confirmation routine that lives in one coordinator’s habits becomes one anyone covering the desk can run.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show): a practice with a working diary, a long-serving desk and no written routine.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show): a practice adding providers or sites faster than the desk can keep track of who has confirmed.
 
 ## What has to change for your company
 
@@ -52,13 +59,13 @@ Your wording comes first: the template carries none of its own and never writes 
 
 Several rules are our editorial choices, and your practice manager should confirm or change each: the next working day is the default day to confirm; a voicemail or a text with no reply is not a confirmation; slots are offered with the same provider at the same location; patients who asked to move are offered times before no-shows; a no-show who is already rebooked gets no offer; the list never suggests a missed-appointment fee or a discharge. The complete list is in the template.
 
-Use it only in an AI product your practice has approved for this information. For the neighbouring work, see [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/) for requests waiting on payers and [Customer reply drafting](https://fullypowered.ai/workflows/customer-reply-drafting/) for written replies.
+Use it only in an AI product your practice has approved for this information. For the neighbouring work, see [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show) for requests waiting on payers and [Customer reply drafting](https://fullypowered.ai/workflows/customer-reply-drafting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show) for written replies.
 
 ## What has been checked
 
 FullyPowered AI wrote this workflow template in its own words, drawing on two published MIT-licensed methods credited in its sources. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the small edits made afterward that have not been run again. That run covered an ordinary day, with a voicemail, a request to move, a health question and a no-show already rebooked; it did not reach a column heading that does not match, a file carrying contact details, wording that asks why a visit was missed, or a request to send the messages. It has not been tested in a practice, and no practice manager has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it on a past week your desk already knows, with cases written in advance: a voicemail, a patient who asks to move with a preferred day, a reply that mentions a health question, a no-show who is already rebooked, two people waiting for the same provider. The coordinator checks every filled script and every slot against the diary before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your practice means running it on a past week your desk already knows, with cases written in advance: a voicemail, a patient who asks to move with a preferred day, a reply that mentions a health question, a no-show who is already rebooked, two people waiting for the same provider. The coordinator checks every filled script and every slot against the diary before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show) sets those cases up.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -86,9 +93,9 @@ Testing in your practice means running it on a past week your desk already knows
 ## Related workflow templates
 
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
-- [Customer reply drafting](https://fullypowered.ai/workflows/customer-reply-drafting/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
+- [Customer reply drafting](https://fullypowered.ai/workflows/customer-reply-drafting/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-appointment-confirmation-and-no-show-follow-up&from=gh-appointment-confirmation-and-no-show).

@@ -1,10 +1,17 @@
 # Incoming referral completeness check
 
-When a referral arrives, the coordinator gets one checklist: what the referring office sent, held against the practice's own referral checklist, what is missing or needs a new copy, and a draft request for exactly those items. A clinician sets urgency; nothing is sent until the coordinator approves it.
+Check each incoming referral against your own checklist and get a draft request for what is missing. A clinician sets urgency; the coordinator approves.
 
-*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/incoming-referral-completeness-check/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Incoming referral completeness check on our website](https://fullypowered.ai/workflows/incoming-referral-completeness-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/incoming-referral-completeness-check/?from=gh-incoming-referral-completeness-check)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/incoming-referral-completeness-check/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check)*
 
 ## The outcome
 
@@ -37,11 +44,11 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Healthcare](https://fullypowered.ai/industries/healthcare/): the referral desk of a specialist or outpatient practice that receives referrals from other offices.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/): a referral checklist that lives in one coordinator's habits becomes one anyone covering the desk applies the same way.
-- [Customer support and service](https://fullypowered.ai/functions/customer-support-and-service/): the patient-access desk, where a complete referral is the difference between a booked visit and a callback.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): a practice with a long-serving coordinator and a checklist that was never fully written down.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/): a practice adding services or referring offices faster than the desk can keep every requirement in its head.
+- [Healthcare](https://fullypowered.ai/industries/healthcare/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check): the referral desk of a specialist or outpatient practice that receives referrals from other offices.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check): a referral checklist that lives in one coordinator's habits becomes one anyone covering the desk applies the same way.
+- [Customer support and service](https://fullypowered.ai/functions/customer-support-and-service/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check): the patient-access desk, where a complete referral is the difference between a booked visit and a callback.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check): a practice with a long-serving coordinator and a checklist that was never fully written down.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check): a practice adding services or referring offices faster than the desk can keep every requirement in its head.
 
 ## What has to change for your company
 
@@ -49,13 +56,13 @@ Your referral checklist comes first: the items, which services each one applies 
 
 Several rules are our editorial choices, and your practice administrator should confirm or change each: document age is counted in calendar days from the day the referral arrived; a document with mismatched patient details is set aside; the request waits while the destination is unclear; clinical fields are reported only as filled or blank; a blank urgency mark goes to the clinician at once. The complete list is in the template.
 
-Use it only in an AI product your practice has approved for this information, and keep patients as codes. For the payer side of the same referral, see [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/); for the bookings that follow, see [Appointment confirmation and no-show follow-up](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/).
+Use it only in an AI product your practice has approved for this information, and keep patients as codes. For the payer side of the same referral, see [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check); for the bookings that follow, see [Appointment confirmation and no-show follow-up](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check).
 
 ## What has been checked
 
 FullyPowered AI wrote this workflow template from its own published map of healthcare work. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, with the edits made after the first run and review, and the template was run again on the example after the last of them. It has not been tested in a medical practice, and no practice administrator has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it on past referrals your coordinator already knows, with cases written in advance: an unsigned order, a visit note past your limit, a document belonging to another patient, a referral to a service you do not offer, a phone call about the patient's health. The coordinator opens every document and checks every line before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your practice means running it on past referrals your coordinator already knows, with cases written in advance: an unsigned order, a visit note past your limit, a document belonging to another patient, a referral to a service you do not offer, a phone call about the patient's health. The coordinator opens every document and checks every line before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check) sets those cases up.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -84,8 +91,8 @@ Testing in your practice means running it on past referrals your coordinator alr
 
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
 - [Appointment confirmation and no-show follow-up](../appointment-confirmation-and-no-show-follow-up/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-incoming-referral-completeness-check&from=gh-incoming-referral-completeness-check).

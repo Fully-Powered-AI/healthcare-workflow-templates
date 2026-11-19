@@ -1,10 +1,17 @@
 # Provider credentialing and re-credentialing tracker
 
-The credentialing coordinator keeps one tracker per clinician: each licence, registration, certification, insurance policy and payer enrolment, where it was verified, when it falls due, the day its renewal should start, and which files are not yet complete. A person contacts every board and payer.
+One tracker per clinician: each licence, insurance policy and payer enrolment with its due date and start date. A person contacts every board and payer.
 
-*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/provider-credentialing-tracker/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Provider credentialing and re-credentialing tracker on our website](https://fullypowered.ai/workflows/provider-credentialing-tracker/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/provider-credentialing-tracker/?from=gh-provider-credentialing-tracker)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/provider-credentialing-tracker/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker)*
 
 ## The outcome
 
@@ -37,11 +44,11 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Healthcare](https://fullypowered.ai/industries/healthcare/): the administrative side of a medical practice that keeps its clinicians' licences, insurance and payer enrolments current.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/): a calendar of deadlines that lives in one person's head becomes a routine anyone covering the desk can run.
-- [Compliance, risk and privacy](https://fullypowered.ai/functions/compliance-risk-and-privacy/): the practice can see at any moment which files are complete and which are not, and why.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): a practice with a long-serving coordinator and a spreadsheet that works until they are away.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/): a practice adding clinicians, where every new file has to be ready before the first day.
+- [Healthcare](https://fullypowered.ai/industries/healthcare/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker): the administrative side of a medical practice that keeps its clinicians' licences, insurance and payer enrolments current.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker): a calendar of deadlines that lives in one person's head becomes a routine anyone covering the desk can run.
+- [Compliance, risk and privacy](https://fullypowered.ai/functions/compliance-risk-and-privacy/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker): the practice can see at any moment which files are complete and which are not, and why.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker): a practice with a long-serving coordinator and a spreadsheet that works until they are away.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker): a practice adding clinicians, where every new file has to be ready before the first day.
 
 ## What has to change for your company
 
@@ -55,7 +62,7 @@ Use it only in an AI product your practice has approved for staff records.
 
 FullyPowered AI wrote this workflow template, drawing on a published hospital credentialing method by CaseMark under the Apache-2.0 licence and scaling it down to a medical practice. It was editorially reviewed on 10 November 2026. The tracker shown in the example was worked through by hand from the template's rules. The template was then tried once on its invented example in Claude on 10 November 2026, and the record is published with it: the output agreed with the example on every standing, date and count, the model brought its wording into line with the example's before the record was saved, and the stop and decline paths were not exercised. Small edits made afterward, listed in the record, have not been run again. It has not been tested in a medical practice, and no credentialing professional has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your practice means running it on a month your coordinator already knows, with cases written in advance: an item that lapsed last week, a renewal applied for after the deadline passed, a required item with no row, a joining clinician with an application still open. The coordinator checks every date against the spreadsheet before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/) is the companion routine for the referral desk.
+Testing in your practice means running it on a month your coordinator already knows, with cases written in advance: an item that lapsed last week, a renewal applied for after the deadline passed, a required item with no row, a joining clinician with an application still open. The coordinator checks every date against the spreadsheet before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker) sets those cases up, and [Prior-authorization follow-up list](https://fullypowered.ai/workflows/prior-authorization-follow-up-list/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker) is the companion routine for the referral desk.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -83,9 +90,9 @@ Testing in your practice means running it on a month your coordinator already kn
 ## Related workflow templates
 
 - [Prior-authorization follow-up list](../prior-authorization-follow-up-list/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
-- [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker)
+- [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-provider-credentialing-tracker&from=gh-provider-credentialing-tracker).

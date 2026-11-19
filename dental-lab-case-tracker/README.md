@@ -1,10 +1,17 @@
 # Dental lab case tracker
 
-The office coordinator keeps one tracker of every case at an outside dental lab: when it went, the lab's due date against the patient's seating, which cases are overdue or due back too late, each remake with its stated reason, and each lab's on-time record for the quarter. A person calls every lab.
+One tracker of every case at an outside dental lab, with due dates against seatings, remakes and each lab's record. A person calls every lab.
 
-*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/dental-lab-case-tracker/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Dental lab case tracker on our website](https://fullypowered.ai/workflows/dental-lab-case-tracker/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/dental-lab-case-tracker/?from=gh-healthcare-dental-lab-case-tracker)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Healthcare · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/dental-lab-case-tracker/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker)*
 
 ## The outcome
 
@@ -36,12 +43,12 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Healthcare](https://fullypowered.ai/industries/healthcare/): the front office of a dental practice that sends crowns, bridges, dentures and guards to outside labs.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/): a set of dates spread across a spreadsheet and a lab's emails becomes one routine anyone covering the desk can run.
-- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/): each lab is a supplier, and the quarter's record shows how it keeps its dates.
-- [Quality management](https://fullypowered.ai/functions/quality-management/): every remake is logged with the reason the office recorded, so the pattern is visible without anyone guessing at a cause.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/): an office with a long-serving coordinator who knows every case by heart until they are away.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/): an office adding dentists or chairs, where the number of cases out at once outgrows memory.
+- [Healthcare](https://fullypowered.ai/industries/healthcare/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker): the front office of a dental practice that sends crowns, bridges, dentures and guards to outside labs.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker): a set of dates spread across a spreadsheet and a lab's emails becomes one routine anyone covering the desk can run.
+- [Procurement and suppliers](https://fullypowered.ai/functions/procurement-and-suppliers/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker): each lab is a supplier, and the quarter's record shows how it keeps its dates.
+- [Quality management](https://fullypowered.ai/functions/quality-management/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker): every remake is logged with the reason the office recorded, so the pattern is visible without anyone guessing at a cause.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker): an office with a long-serving coordinator who knows every case by heart until they are away.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker): an office adding dentists or chairs, where the number of cases out at once outgrows memory.
 
 ## What has to change for your company
 
@@ -55,7 +62,7 @@ Use it only in an AI product your office has approved for patient-related record
 
 FullyPowered AI wrote this workflow template, drawing on a published dental laboratory coordination method by CaseMark under the Apache-2.0 licence and keeping only its case-tracking and lab-record ideas. It was editorially reviewed on 10 November 2026. The tracker shown in the example was worked through by hand from the template's rules. The template, with the small edits made on review, was then tried on its invented example in Claude on 10 November 2026, and the record is published with it: every case, date and count agreed with the example's tracker, and four lines differed in wording. That run did not reach the lines for a case not yet overdue whose seating has already passed, or for an overdue case with too few days left before the seating, and the stop and decline paths were not exercised. It has not been tested in a dental office, and no dental professional has reviewed its rules. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your office means running it on a few weeks your coordinator already knows, with cases written in advance: a case overdue with the seating two days away, a case due back on the seating day, a remake with no reason recorded, a case received before the quarter began. The coordinator checks every date against the case list before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/) prepares the formal note to a lab when its record calls for one.
+Testing in your office means running it on a few weeks your coordinator already knows, with cases written in advance: a case overdue with the seating two days away, a case due back on the seating day, a remake with no reason recorded, a case received before the quarter began. The coordinator checks every date against the case list before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker) sets those cases up, and [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker) prepares the formal note to a lab when its record calls for one.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -83,9 +90,9 @@ Testing in your office means running it on a few weeks your coordinator already 
 ## Related workflow templates
 
 - [Provider credentialing and re-credentialing tracker](../provider-credentialing-tracker/)
-- [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
+- [Supplier issue notice](https://fullypowered.ai/workflows/supplier-issue-notice/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=healthcare-dental-lab-case-tracker&from=gh-healthcare-dental-lab-case-tracker).
